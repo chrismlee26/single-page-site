@@ -9,7 +9,7 @@
         font-family: 'Helvetica Neue';
         font-weight: lighter;
         background-color: white;
-        line-height: 6ex;
+        line-height: 4ex;
         height: 100%;
         font-size: 2ex;
       }
@@ -37,7 +37,7 @@
       nav ul {
         display: flex;
         list-style: none;   /*this removes bullets */
-        text-shadow: 1px 1px 1px grey;  /* this is the shadows for nav link */
+        text-shadow: 1px 1px grey;  /* this is the shadows for nav link */
       }
 
 
@@ -121,6 +121,130 @@
 			.card-1 h3, .card p {
 				margin: 1rem;
 			}
+
+/* START HERE FOR NEW CODE */
+
+      #wendy-carlos {
+				background-color: #5856D6;
+				background-image: url(images/carlos-0.jpg);
+				background-size: cover;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			#wendy-carlos > div {
+				background-color:rgba(255, 255, 255, 0.65);
+				padding: 2em;
+				width: 75%;
+				max-width: 700px;
+			}
+
+			#wendy-carlos  h2 {
+				font-size: 4em;
+				margin: 0 0 1rem 0;
+				text-align: center;
+			}
+
+
+			/* Style this */
+			#suzanne-ciani {
+				background-color: #461c3b;
+				display: flex;
+				color: #fff;
+				background-image: url(images/sound-texture.jpg);
+				background-size: cover;
+			}
+
+			#suzanne-ciani > div {
+				display: flex;
+				justify-content: center;
+				width: 75%;
+				margin: auto;
+			}
+
+			#suzanne-ciani h2, #suzanne-ciani p {
+				margin: 0 0 1rem 0;
+			}
+
+			#suzanne-ciani h2 {
+				font-size: 2em;
+			}
+
+			#suzanne-ciani > div > div:nth-child(1) {
+				flex: 3;
+				margin: 0 2em 0 0;
+			}
+
+			#suzanne-ciani > div > div:nth-child(2) {
+				flex: 2;
+			}
+
+			#suzanne-ciani > div img {
+				width: 100%;
+				box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
+			}
+
+			#contact {
+				background-color: #FF9500;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			#contact > form {
+				display: flex;
+			}
+
+			#contact > form > div {
+				display: flex;
+				flex-direction: column;
+			}
+
+			#contact label {
+				display: flex;
+				flex-direction: column;
+			}
+
+			form {
+				border: 1px solid;
+			}
+
+			label {
+				margin: 1em 0;
+			}
+
+			label span {
+				margin: 1em 0;
+			}
+
+			input, textarea {
+				border: 1px solid #000;
+				padding: 0.5em;
+				margin: 0 2em 0 0;
+				width: 20em;
+				font-size: 1em;
+			}
+
+			textarea {
+				height: 6em;
+				margin: 0 0 0 0;
+			}
+
+			form button {
+				width: auto;
+				font-size: 1em;
+				margin: 1em 0;
+			}
+
+
+
+
+
+
+
+
+
       /* images/IMG_3758.jpg */
 
 
@@ -161,7 +285,7 @@
             </p>
         </div>
         <div>
-          <img src="images/IMG_4295-E.jpg" alt="Technology" width="auto" height="450">
+          <img src="images/IMG_4295-E.jpg" alt="Technology" width="auto" height="300">
         </div>
       </section>
 
@@ -169,14 +293,14 @@
 				<div>
 					<div>
 						<h2>Construction</h2>
-						<p>Series Zero isn't just a product, it's an integrated platform. Hidden beneath the minimal Kangaroo exterior shell is 
+						<p>Not just a product, it's an integrated platform. Hidden beneath the minimalist Kangaroo shell is 
               one of the most complicated ready-to-wear fashion garments currently in manufacture. The Series Zero jackets are 
-              constructed as two separate garments with diametrically opposing seams, each layer augmenting another to increase 
-              protection and performance. The two garments are tailored and sewn together in final assembly for fit and finish.
+              constructed as two separate garments with diametrically opposing seams, augmenting one another to maximize  
+              protection and performance. The two garments are expertly refitted in the final stage.
             </p>
         </div>
         <div>
-          <img src="images/IMG_4587.jpg" alt="Armor" width="auto" height="450">
+          <img src="images/IMG_4587.jpg" alt="Armor" width="auto" height="300">
         </div>
       </section>
 
@@ -184,17 +308,15 @@
 				<div>
 					<div>
 						<h2>Design</h2>
-						<p>Thesis Labs: Series Zero. The first in a series of stylistically minimalist, CE-Approved, armoured motorcycle gear. 
-              Dual purpose Kangaroo leather jackets for motorcyclists that can be worn as both fashion garments and protective 
-              equipment. Thesis explores the medium between sophistication and adrenaline. Safety gear doesn't have to look or feel 
-              like safety gear. The most protective track-focused motorcycle jackets ever produced. And this is where we begin. This 
-              isn't a styling exercise, this is motorcycle gear completely reengineered. Our product is user-centric, ergonomic in 
-              function and visually proportioned for the human form. Series Zero provides the highest level of protective technology 
+						<p>Safety gear doesn't have to look or feel like safety gear. The first in a series of minimalist, CE-Approved, 
+              armoured motorcycle gear. Dual purpose Kangaroo leather jackets for motorcyclists that can be worn as fashion 
+              garments and protective equipment. The most protective track-focused motorcycle jackets ever produced.
+              Motorcycle gear completely reengineered -- Series Zero provides the highest level of protective technology 
               adapted to the language of contemporary fashion.
             </p>
         </div>
         <div>
-          <img src="images/IMG_08a.jpg" alt="Design" width="auto" height="450">
+          <img src="images/IMG_08a.jpg" alt="Design" width="auto" height="300">
         </div>
       </section> 
 
@@ -202,9 +324,9 @@
 				<div>
 					<div>
 						<h2>Press</h2>
-						<p>"The Canadian company is on a mission to create teh world's most protective motorcycle jacket...
+						<p>"The Canadian company is on a mission to create the world's most protective motorcycle jacket...
               it's the most fascinating kickstarter campaign we've ever seen. Check it out to explore the bleeding edge
-              of motorcycle apparel design"
+              of motorcycle apparel design" - Chris Hunter, BikeEXIF
             </p>
         </div>
 
@@ -225,7 +347,7 @@
             </p>
         </div>
         <div>
-          <img src="images/IMG_4526e.jpg" alt="Armor" width="450" height="450">
+          <img src="images/IMG_4526e.jpg" alt="Armor" width="auto" height="450">
         </div>
       </section>
 
@@ -241,7 +363,7 @@
             </p>
         </div>
         <div>
-          <img src="images/01PPE.png" alt="Standards" width="450" height="450">
+          <img src="images/01PPE.png" alt="Standards" width="auto" height="450">
         </div>
       </section>
 
