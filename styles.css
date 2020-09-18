@@ -1,0 +1,300 @@
+
+
+      body, html {
+        height: 100%;
+        margin: 0;
+        font-family: 'Helvetica Neue';
+        font-weight: lighter;
+        background-color: white;
+        line-height: 4ex;
+        height: 100%;
+        font-size: 2ex;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between; /* splits logo and buttons */
+        padding: 1em;  /* spacing between */
+        background-color: whitesmoke;  /* nav bar color (silver best) */
+        align-items: center;
+        margin: 0;
+      } 
+
+      nav ul a {
+        color: ghostwhite;  /* color of nav bar (ghostwhite) */
+        padding: .7em; /* button spacing*/
+        
+      }
+
+      nav a {
+        text-decoration: underline;
+        color: #eee;    /* color of nav #eee text*/
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;   /*this removes bullets */
+        text-shadow: 1px 1px grey;  /* this is the shadows for nav link */
+      }
+
+
+      nav ul a:hover {     /* this is the highlight for nav link */
+        color: black;
+      }
+
+      .hero-image {
+        background-image: url(images/image_02.jpg); /* retaining the overlay just incase linear-gradient(#FFFFFF) 2%, rgba(#FFFFFF) .5%,   */
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .hero-text {
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 4ex;
+        letter-spacing: 3px;
+      }
+
+      .hero-text h1 {
+        font-family: 'Baskerville';
+        font-weight: normal;
+        letter-spacing: 6px;
+      }
+
+      .hero-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: black;
+        background-color: #ddd;
+        text-align: center;
+        cursor: pointer;
+        font-size: .5ex;
+      }
+
+      .hero-text button:hover {
+        background-color: #555;
+        color: white;
+      }
+
+        #card-1 ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #card-1 > h2 {
+            margin: 1em;
+            font-size: 3em;
+            text-align: center;
+            color: #eee;
+        }
+
+        .card-1 {
+            width: 500px;
+            margin: 4em;
+            background-color: #eee;
+            box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+        }
+
+        /* .card-1 img {
+            width: 100%;
+        } */
+
+        .card-1 h3 {
+            font-size: 2em;
+            font-family: 'baskerville';
+            font-weight: lighter;
+        }
+
+        .card-1 h3, .card p {          delete this section
+            margin: 1rem;
+        }
+
+/* START HERE FOR NEW CODE */
+
+      #banner {
+				background-image: url(images/IMG_3758.jpg);
+        height: 100%;
+        background-position: center;
+				background-size: cover;
+        background-repeat: no-repeat;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			/* #banner > div {
+				padding: 2em;
+				width: 75%;
+				max-width: 700px;
+        height: 100%;
+			} */
+
+			.banner-press {
+				font-size: 24em;
+				margin: 0 0 1rem 0;
+        display: flex;
+				text-align: center;
+        justify-content: center;
+        color: white;
+        font-size: 4ex;
+        letter-spacing: 3px;
+			}
+
+      /* #banner > p { 
+				margin: 1rem;
+        font-size: 25em;
+        display: flex;
+				text-align: center;
+        justify-content: center;
+			} */
+
+      /* #banner > form {
+        border: 1px solid;      need to figure out how to create a box for the text
+
+      } */
+
+			/* #card-4 {
+				background-color: whitesmoke;
+				display: flex;
+				color: black;
+				/* background-image: url(images/sound-texture.jpg);
+				background-size: cover;
+			} */
+
+			#card-4 > div {
+				display: flex;
+				justify-content: center;
+				width: 75%;
+				margin: auto;
+			}
+
+			/* #card-4 h2, p {
+				margin: 0 0 1rem 0;
+			} */
+
+			#card-4 > div > div:nth-child(1) {
+				flex: 3;
+				margin: 0 2em 0 0;
+        position: absolute;
+        right: 0;
+			}
+
+			#card-4 > div > div:nth-child(2) {
+				flex: 2;
+        width: 100%;
+				box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
+        position: absolute;
+        left: 0;
+			}
+
+			/* #card-4 > div img {
+				width: 100%;
+				box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
+			} */
+
+
+			#card-5 > div {
+				display: flex;
+				justify-content: center;
+				width: 75%;
+				margin: auto;
+			}
+
+			/* #card-5 h2, p {
+				margin: 0 0 1rem 0;
+			} */
+
+			#card-5 > div > div:nth-child(1) {
+				flex: 3;
+				margin: 0 2em 0 0;
+			}
+
+			#card-5 > div > div:nth-child(2) {
+				flex: 2;
+        position: absolute;
+        right: 0;
+			}
+
+			#card-5 > div img {
+				width: 100%;
+				box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
+			}
+
+			#contact {
+				background-color: whitesmoke;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			#contact > form {
+				display: flex;
+			}
+
+			#contact > form > div {
+				display: flex;
+				flex-direction: column;
+			}
+
+			#contact label {
+				display: flex;
+				flex-direction: column;
+			}
+
+			form {
+				border: 1px solid;
+			}
+
+			label {
+				margin: 1em 0;
+			}
+
+			label span {
+				margin: 1em 0;
+			}
+
+			input, textarea {
+				border: 1px solid #000;
+				padding: 0.5em;
+				margin: 0 2em 0 0;
+				width: 20em;
+				font-size: 1em;
+			}
+
+			textarea {
+				height: 6em;
+				margin: 0 0 0 0;
+			}
+
+			form button {
+				width: auto;
+				font-size: 1em;
+				margin: 1em 0;
+			}
+
+
+
+
+
+
+
+
+
+      /* images/IMG_3758.jpg */
+
+
+
+      

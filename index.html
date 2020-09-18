@@ -1,266 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-
-      body, html {
-        height: 100%;
-        margin: 0;
-        font-family: 'Helvetica Neue';
-        font-weight: lighter;
-        background-color: white;
-        line-height: 4ex;
-        height: 100%;
-        font-size: 2ex;
-      }
-
-      nav {
-        display: flex;
-        justify-content: space-between; /* splits logo and buttons */
-        padding: 1em;  /* spacing between */
-        background-color: whitesmoke;  /* nav bar color (silver best) */
-        align-items: center;
-        margin: 0;
-      } 
-
-      nav ul a {
-        color: ghostwhite;  /* color of nav bar (ghostwhite) */
-        padding: .7em; /* button spacing*/
-        
-      }
-
-      nav a {
-        text-decoration: underline;
-        color: #eee;    /* color of nav #eee text*/
-      }
-
-      nav ul {
-        display: flex;
-        list-style: none;   /*this removes bullets */
-        text-shadow: 1px 1px grey;  /* this is the shadows for nav link */
-      }
-
-
-      nav ul a:hover {     /* this is the highlight for nav link */
-        color: black;
-      }
-
-      .hero-image {
-        background-image: url(images/image_02.jpg); /* retaining the overlay just incase linear-gradient(#FFFFFF) 2%, rgba(#FFFFFF) .5%,   */
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      }
-
-      .hero-text {
-        text-align: left;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        font-size: 4ex;
-        letter-spacing: 3px;
-      }
-
-      .hero-text h1 {
-        font-family: 'Baskerville';
-        font-weight: normal;
-        letter-spacing: 6px;
-      }
-
-      .hero-text button {
-        border: none;
-        outline: 0;
-        display: inline-block;
-        padding: 10px 25px;
-        color: black;
-        background-color: #ddd;
-        text-align: center;
-        cursor: pointer;
-        font-size: .5ex;
-      }
-
-      .hero-text button:hover {
-        background-color: #555;
-        color: white;
-      }
-
-			#card-1 ul {
-				list-style: none;
-				margin: 0;
-				padding: 0;
-				display: flex;
-				justify-content: center;
-			}
-
-			#card-1 > h2 {
-				margin: 1em;
-				font-size: 3em;
-				text-align: center;
-				color: #eee;
-			}
-
-			.card-1 {
-				width: 400px;
-				margin: 1em;
-				background-color: #eee;
-				box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
-			}
-
-			.card-1 img {
-				width: 100%;
-			}
-
-			.card-1 h3 {
-				font-size: 2em;
-			}
-
-			.card-1 h3, .card p {
-				margin: 1rem;
-			}
-
-/* START HERE FOR NEW CODE */
-
-      #banner {
-				background-image: url(images/IMG_3758.jpg);
-        height: 100%;
-        background-position: center;
-				background-size: cover;
-        background-repeat: no-repeat;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-
-			#banner > div {
-				padding: 2em;
-				width: 75%;
-				max-width: 700px;
-        height: 100%;
-			}
-
-			#banner > h2 {
-				font-size: 4em;
-				margin: 0 0 1rem 0;
-        display: flex;
-				text-align: center;
-        justify-content: center;
-			}
-
-      #banner > p { /* new code tester */
-				margin: 1rem;
-        font-size: 25em;
-        display: flex;
-				text-align: center;
-        justify-content: center;
-			}
-
-			#card-4 {
-				background-color: #461c3b;
-				display: flex;
-				color: #fff;
-				/* background-image: url(images/sound-texture.jpg); */
-				background-size: cover;
-			}
-
-			#card-5 > div {
-				display: flex;
-				justify-content: center;
-				width: 75%;
-				margin: auto;
-			}
-
-			#card-5 h2, #suzanne-ciani p {
-				margin: 0 0 1rem 0;
-			}
-
-			#card-5 h2 {
-				font-size: 2em;
-			}
-
-			#card-5 > div > div:nth-child(1) {
-				flex: 3;
-				margin: 0 2em 0 0;
-			}
-
-			#card-5 > div > div:nth-child(2) {
-				flex: 2;
-			}
-
-			#card-5 > div img {
-				width: 100%;
-				box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
-			}
-
-			#contact {
-				background-color: #FF9500;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-
-			#contact > form {
-				display: flex;
-			}
-
-			#contact > form > div {
-				display: flex;
-				flex-direction: column;
-			}
-
-			#contact label {
-				display: flex;
-				flex-direction: column;
-			}
-
-			form {
-				border: 1px solid;
-			}
-
-			label {
-				margin: 1em 0;
-			}
-
-			label span {
-				margin: 1em 0;
-			}
-
-			input, textarea {
-				border: 1px solid #000;
-				padding: 0.5em;
-				margin: 0 2em 0 0;
-				width: 20em;
-				font-size: 1em;
-			}
-
-			textarea {
-				height: 6em;
-				margin: 0 0 0 0;
-			}
-
-			form button {
-				width: auto;
-				font-size: 1em;
-				margin: 1em 0;
-			}
-
-
-
-
-
-
-
-
-
-      /* images/IMG_3758.jpg */
-
-
-
-      
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
       <nav id="nav">
@@ -269,9 +10,9 @@
               </a>
               
           <ul>
-              <li><a href="#">TECHNOLOGY</a></li>
+              <li><a href="#card-1">TECHNOLOGY</a></li>
               <li><a href="#">STOCKISTS</a></li>
-              <li><a href="#">PRESS</a></li>
+              <li><a href="#banner">PRESS</a></li>
               <li><a href="#">CONTACT</a></li>
           </ul>
       </nav>
@@ -284,55 +25,31 @@
         </div>
       </div>
 
-			<section id="card-1">
-				<div>
-					<div>
-						<h2>Technology</h2>
-						<p>The most protective track-focused motorcycle jackets ever produced. And this is where we begin. This isn't a styling 
-              exercise, this is motorcycle gear completely reengineered. Our product is user-centric, ergonomic in function and 
-              visually proportioned for the human form. Series Zero provides the highest level of protective technology adapted to 
-              the language of contemporary fashion.
-            </p>
-        </div>
-        <div>
-          <img src="images/IMG_4295-E.jpg" alt="Technology" width="auto" height="300">
-        </div>
-      </section>
-
-			<section id="card-2">
-				<div>
-					<div>
-						<h2>Construction</h2>
-						<p>Not just a product, it's an integrated platform. Hidden beneath the minimalist Kangaroo shell is 
-              one of the most complicated ready-to-wear fashion garments currently in manufacture. The Series Zero jackets are 
-              constructed as two separate garments with diametrically opposing seams, augmenting one another to maximize  
-              protection and performance. The two garments are expertly refitted in the final stage.
-            </p>
-        </div>
-        <div>
-          <img src="images/IMG_4587.jpg" alt="Armor" width="auto" height="300">
-        </div>
-      </section>
-
-			<section id="card-3">
-				<div>
-					<div>
-						<h2>Design</h2>
-						<p>Safety gear doesn't have to look or feel like safety gear. The first in a series of minimalist, CE-Approved, 
-              armoured motorcycle gear. Dual purpose Kangaroo leather jackets for motorcyclists that can be worn as fashion 
-              garments and protective equipment. The most protective track-focused motorcycle jackets ever produced.
-              Motorcycle gear completely reengineered -- Series Zero provides the highest level of protective technology 
-              adapted to the language of contemporary fashion.
-            </p>
-        </div>
-        <div>
-          <img src="images/IMG_08a.jpg" alt="Design" width="auto" height="300">
-        </div>
-      </section> 
+      <section id="card-1">
+				<ul>
+					<li class="card-1">
+						<img src="images/IMG_4295-E.jpg" alt="Technology" width="auto" height="260">
+						<h3>Technology</h3>
+						<p>The most protective track-focused motorcycle jackets ever produced. And this is where we begin.</p>
+					</li>
+					<li class="card-1">
+						<img src="images/IMG_4962.jpg" alt="Armor" width="auto" height="260"> 
+						<h3>Construction</h3>
+						<p>Hidden beneath the minimalist Kangaroo shell is 
+              one of the most complicated ready-to-wear fashion garments currently in manufacture.</p>
+					</li>
+					<li class="card-1">
+						<img src="images/IMG_08a.jpg" alt="Design" width="auto" height="260">
+						<h3>Design</h3>
+						<p>This is motorcycle geaer completely reengineered. The highest level of protection adapted to the language 
+              of contemporary fashion.</p>
+					</li>
+				</ul>
+			</section>
 
       <section id="banner">
-				<div>
-						<h2>Press</h2>
+				<div class="banner-press">
+          <h2>Press</h2>
 						<p>"The Canadian company is on a mission to create the world's most protective motorcycle jacket...
               it's the most fascinating kickstarter campaign we've ever seen. Check it out to explore the bleeding edge
               of motorcycle apparel design" - Chris Hunter, BikeEXIF
@@ -354,7 +71,7 @@
             </p>
         </div>
         <div>
-          <img src="images/IMG_4526e.jpg" alt="Armor" width="auto" height="450">
+          <img src="images/IMG_4587.jpg" alt="Armor" width="auto" height="450">   <!-- IMG_4544e.jpg IMG_4526e.jpg IMG_4587.jpg -->
         </div>
       </section>
 
@@ -373,6 +90,7 @@
           <img src="images/01PPE.png" alt="Standards" width="auto" height="450">
         </div>
       </section>
+
 
 			<footer id="contact">
 				<form>
@@ -398,25 +116,8 @@
 			</footer>
 
 
+      
 
   </body>
+
 </html>
-
-
-
-<!-- COMMENTS
--nav                -   title, navid bar 5 links (ul, li, a href=, p)
--banner             -   sectionid, 
--cards 3            -   
--cards 2                
--banner 2           -   
--column 4               
--column 1               
-
--contact                contactid, form, div, label, span, inp
--Footer                 footer id, form, div, label, 
-
-
-
-
-/COMMENTS-->
