@@ -161,92 +161,60 @@
         color: white;
         font-size: 4ex;
         letter-spacing: 3px;
-        text-shadow: 0px 0px 1px white
+        text-shadow: 0px 0px 6px black;
     }
 
 
     /* ERRORS BELOW!!!! */
 
     #card-4 {
-        background-color: whitesmoke;
+        width: 650px;
+        margin: 5em 5em 5em 5em;
         display: flex;
-        color: black;
-        /* background-image: url(images/sound-texture.jpg);
-        background-size: cover;
+        flex-direction: row;
     }
 
-    #card-4 > div {
-        display: flex;
-        justify-content: center;
-        width: 75%;
-        margin: auto;
-    }
-
-    /* #card-4 h2, p {
-        margin: 0 0 1rem 0;
-    } */
-    
-
-
-    /* #card-4 > div > div:nth-child(1) {
-        flex: 3;
-        margin: 0 2em 0 0;
-        position: absolute;
-        right: 0;
-    } */
-
-    #card-4 > div > div:nth-child(2) {
-        flex: 2;
-        width: 100%;
-        box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
-        position: absolute;
-        left: 0;
-    }
-
-    /* #card-4 > div img {
-        width: 100%;
-        box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
-        } */
-
-
-    #card-5 > div {
-        display: flex;
-        justify-content: center;
-        width: 75%;
-        margin: auto;
-    }
-
-        /* #card-5 h2, p {
-            margin: 0 0 1rem 0;
-        } */
-
-    #card-5 > div > div:nth-child(1) {
-        flex: 3;
-        margin: 0 2em 0 0;
-    }
-
-    #card-5 > div > div:nth-child(2) {
-        flex: 2;
-        position: absolute;
-        right: 0;
-    }
-
-    #card-5 > div img {
-        width: 100%;
-        box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
-    }
-
-
-    .card-4 h3 {
+    #card-4 h3 {
         font-size: 2em;
         font-family: 'baskerville';
         font-weight: lighter;
-        letter-spacing: 14px;
+        letter-spacing: 4px;
+        margin: 1.5ex;
     }
 
+    #card-4 p {
+        margin: 2.5ex;
+    }
 
+    #card-4 img {
+        display: flex;
+        justify-content: flex-end;
+    }
 
+    #card-5 {
+        width: 650px;
+        margin: 5em 5em 5em 5em;
+        display: flex;
+        flex-direction: row;
+    }
 
+    #card-5 h3 {
+        font-size: 2em;
+        font-family: 'baskerville';
+        font-weight: lighter;
+        letter-spacing: 4px;
+        margin: 1.5ex;
+    }
+
+    #card-5 p {
+        margin: 2.5ex;
+    }
+
+    #card-5 img {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
     #contact {
         background-color: whitesmoke;
         display: flex;
@@ -254,8 +222,16 @@
         align-items: center;
     }
 
+    #contact h3 {
+        font-size: 2em;
+        font-family: 'baskerville';
+        font-weight: lighter;
+        letter-spacing: 4px;
+    }
+
     #contact > form {
         display: flex;
+
     }
 
     #contact > form > div {
@@ -285,7 +261,7 @@
         padding: 0.5em;
         margin: 0 2em 0 0;
         width: 20em;
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     textarea {
@@ -297,6 +273,9 @@
         width: auto;
         font-size: 1em;
         margin: 1em 0;
+        display: flex;
+        align-items: center;
+
     }
 
 
