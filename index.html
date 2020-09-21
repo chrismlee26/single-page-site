@@ -53,8 +53,8 @@
 
       <section id="banner">
 				<div class="banner-press">
-						<p>"The Canadian company is on a mission to create the world's most protective motorcycle jacket. It's the most fascinating kickstarter campaign 
-              we've ever seen. Check it out to explore the bleeding edge of motorcycle apparel design." 
+						<p>"The Canadian company is on a mission to create the world's most protective motorcycle jacket. It's the most fascinating 
+              kickstarter campaign we've ever seen. Check it out to explore the bleeding edge of motorcycle apparel design." 
             </p>
             <p> — Chris Hunter, BikeEXIF
             </p>
@@ -64,15 +64,14 @@
 
 			<section id="card-4">
 				<div>
-					<div>
-						<h3>armor</h3>
-						<p>Hidden below the Kangaroo exterior, the Vectran "Core" layer provides a significant level of augmented 
-              protection. Within our garments, Vectran is attached with seams diametrical to the Kangaroo exterior 
-              layout. Acting as a redundant system separate from the exterior, the Vectran “Core” is our primary 
-              protective layer. Based on our materials research we're expecting a 7+ second abrasion time added to our 
-              garments. It also protects you from material and seam bursts, cuts and punctures. We apply our Vectran 
-              layer in a manner which exceeds all product safety requirements.
-            </p>
+          <h3>armor</h3>
+          <p>Hidden below the Kangaroo exterior, the Vectran "Core" layer provides a significant augmented 
+            protection. Within our garments, Vectran is attached with seams diametrical to the Kangaroo leather
+            shell. Acting as a auxiiary system separate from the exterior, the Vectran “Core” is our primary 
+            protective layer. Based on our materials research we're expecting a 7+ second abrasion time added to our 
+            garments. This bulletproof layer also protects you from material and seam bursts, cuts and punctures. We 
+            apply our Vectran layer to exceed all product safety requirements.
+          </p>
         </div>
         <div>
           <img src="images/IMG_4587.jpg" alt="Armor" width="auto" height="450">   <!-- IMG_4544e.jpg IMG_4526e.jpg IMG_4587.jpg -->
@@ -81,50 +80,50 @@
 
 			<section id="card-5">
 				<div>
-					<div>
-						<h3>standards</h3>
-						<p>All Series Zero garments are designed to meet the highest standard of protective apparel in the world -- 
-              CE EN 13595:1-2012 VO6, the French/European Union's safety Standard for Personal Protective Equipment. Due to 
-              its rigorously high standard, most brands choose to forego this level of testing. In fact, since its inception 
-              in 2002, only a handful of products have ever been certified to legally use the term PPE (Personal Protective 
-              Equipment).
-            </p>
+          <h3>standards</h3>
+          <p>All Series Zero garments are designed to meet the highest standard of protective apparel in the world -- 
+            CE EN 13595:1-2012 VO6, the French/European Union's safety Standard for Personal Protective Equipment. Due to 
+            its rigorously high standard, most brands choose to forego this level of testing. In fact, since its inception 
+            in 2002, only a handful of products have ever been certified to legally use the term PPE (Personal Protective 
+            Equipment).
+          </p>
         </div>
         <div>
           <img src="images/01PPE.png" alt="Standards" width="auto" height="450">
         </div>
       </section>
 
-
-			<footer id="contact">
-        <form>
-          <div>
-            <h3>contact us!</h3>
-				
-					<div>
-						<label>
-							<span>Name</span>
-							<input type="text">
-						</label>
-			
-						<label>
-							<span>Email</span>
-							<input type="email">
-						</label>
-					</div>
-					<div>
-						<label>
-							<span>Message</span>
-							<textarea></textarea>
-						</label>
-						<button type="submit">Send</button>
-					</div>
-				</form>
-			</footer>
-
-
-      
-
+			<section id="contact">
+        <div class="container">
+          <h3> contact us:</h3> 
+          <form action="action_page.php">
+        
+            <label for="name">Name</label>
+            <input type="text" id="fname" name="name" placeholder="Your name..">
+        
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject..">
+        
+            <label for="region">Region</label>
+            <select id="region" name="region">
+              <option value="usa">USA</option>
+              <option value="canada">Canada</option>
+              <option value="australia">Australia</option>
+              <option value="europe">Europe</option>
+              <option value="asia">Asia</option>
+              <option value="africa">Africa</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="SUBMIT">
+        
+          </form>
+        </div>
+      </section>
+      <footer id="footer">
+        <p> thesis labs, inc. 2014 </p>
+      </footer>
   </body>
-
 </html>
